@@ -1,0 +1,9 @@
+<div>
+  <button (click)="loadComponent('test1')">Load Test 1</button>
+  <button (click)="loadComponent('test2')">Load Test 2</button>
+  <button (click)="loadComponent('NaN')">Load Test NaN</button>
+</div>
+<div class="div__top-margin">
+  <ng-template #componentInstance></ng-template>
+  <span *ngIf="isError" class="error">Component mapping not found</span>
+</div>
