@@ -16,10 +16,8 @@ import { DynamicComponentBase } from './dynamicComponentBase/dynamic-base-compon
     Test2Component,
     DynamicComponentBase
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule],
+  entryComponents: [Test1Component, Test2Component],
   providers: [],
   bootstrap: [AppComponent]
 })

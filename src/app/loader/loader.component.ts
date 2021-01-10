@@ -1,6 +1,13 @@
-import { Component, ComponentFactory, ComponentFactoryResolver, ComponentRef, OnDestroy, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
-import { Test1Component } from '../test1/test1.component';
-import { Test2Component } from '../test2/test2.component';
+import {
+  Component,
+  ComponentFactory,
+  ComponentFactoryResolver,
+  ComponentRef,
+  OnDestroy,
+  OnInit,
+  ViewChild,
+  ViewContainerRef }
+from '@angular/core';
 import { ClassMapping } from '../utilities/utilities';
 
 @Component({
